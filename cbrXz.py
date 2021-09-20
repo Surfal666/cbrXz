@@ -28,24 +28,13 @@ def filterBook(s):
         v = True
     return v
 
-
-def filterPage(s):
-    return True
-
-
 def debug(s):
     print("{}[{}]->{}: {}".format(inspect.stack()[2].function, inspect.stack()[2].lineno, inspect.stack()[1].function, s))
-
 
 def error(s):
     print("{}[{}] FATAL ERROR: {}".format(inspect.stack()[2].function, inspect.stack()[2].lineno, s))
 
-
-def log(s):
-    print("{}".format(s))
-
-
-def main():
+def cbrXz():
     # cfg = {}
     total = 0
     books = []
@@ -206,4 +195,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    cbrXz()
